@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form,fieldset,figure,div,a,img {
+	margin: 0;
+	padding: 0;
+}
+
+.center{
+	text-align:center;
+}
+
+body{
+	margin:auto;
+}
+
+.order_query{
+	width:950px;
+	background-color:#AACDED;
+	margin:20px auto;
+	padding-bottom:5px;
+}
+
+.order_query a{
+	color:#0000EE;
+}
+
+.order_query h4{
+	height:40px;
+	line-height:40px;
+	margin-left:20px;
+}
+
+.order_query .order_query2{
+	height:100%;
+	background-color:#FFFFFF;
+	margin:0 5px;
+	padding:20px 20px 0px 20px;
+}
+
+.order_query2 .ord{
+
+	padding:0 20px 20px 20px;
+	
+}
+
+.ord .ordcolor{
+	color:#FF0000;
+}
+
+.ord .table{
+	border-collapse:collapse;
+	width:100%;
+	border-bottom:2px solid #CCCCCC;
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	font-size:14px;
+	text-align:center;
+}
+
+.table td{
+	border:1px solid #E1E1E1;
+}
+
+.table tr:nth-child(odd){
+	background-color:#FFF4D7;
+	height:35px;
+	/* border-top:2px solid #CCCCCC; */
+}
+
+.table tr:nth-child(even){
+	height:30px;
+	/* border-top:2px solid #CCCCCC; */
+}
+
+.table td:first-of-type{
+	width:210px;
+}
+
+.table td:nth-of-type(2){
+	width:150px;
+}
+
+.table td:nth-of-type(3){
+	width:150px;
+}
+
+.table td:nth-of-type(4){
+	width:150px;
+}
+
+.table td:last-of-type{
+	width:200px;
+}

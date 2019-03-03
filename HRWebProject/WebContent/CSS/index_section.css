@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body,h1,h2,h3,p,ul,ol,form,fieldset,figure,div,a,img {
+	margin: 0;
+	padding: 0;
+}
+
+.center{
+	text-align:center;
+}
+
+body{
+	margin:auto;
+}
+
+#index_section{
+	width:730px;	
+	float:left;
+}
+
+#index_section a{
+	color:#7F007F;
+}
+
+#index_section .div1{
+	text-align:center;
+	height:40px;
+	line-height:40px;
+	background-color:#FFFFFF;
+}
+
+#index_section .div1 select{
+	margin-right:8%;
+}
+
+#index_section .div2{
+	background-color:#F7B64A;
+	height:35px;
+	text-align:left;
+	padding:5px 0 0 5px;
+	vertical-align:bottom;
+}
+
+#index_section .div2 .title{
+	width:80px;
+	height:25px;
+	background-color:#FFFFFF;
+	color:#F7B64A;
+	font-size:15px;
+	font-weight:bold;
+	padding:2px 0;
+	border-radius:7px;
+	line-height:25px;
+	text-align:center;
+}
+
+#index_section img{
+	margin:5px 5px 0px 5px;
+	width:150px;
+	height:125px;
+	border:1px solid #F2F2F2;
+}
+
+/* #index_section figure{
+	width:160px;
+	height:200px;
+	float:left;
+	margin:5px 11px 2.5px 11px;
+	font-size:12px;
+} */
+
+#index_section .table p{
+	margin:5px 5px 0 5px;
+	
+}
+
+#index_section .table .font{
+	color:#BABDC1;
+}
+
+#index_section .table .price{
+	color:#E60706;
+	font-size:15px;
+}
+
+#index_section .table{
+	width:100%;
+	font-size:12px;
+	border-collapse:collapse;
+}
+
+.table td{
+	width:160px;
+	float:left;
+	/* height:200px; */
+	margin:5px 10px 2.5px 8px;
+}
+
+.table td:hover{
+	border:1px solid orange;
+
+}
+
+
+
+

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.index{
+	width:950px;
+	margin:0 auto;
+}
+
+.index_left{
+	width:220px;
+	float:left;
+	margin:0px;
+}
+
+.index_right{
+	width:730px;
+	float:right;
+	margin:0px;
+}

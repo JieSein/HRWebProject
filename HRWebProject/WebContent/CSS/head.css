@@ -1,0 +1,90 @@
+@charset "UTF-8";
+body,h1,h2,h3,p,ul,ol,form,fieldset,figure,div,a,img,span {
+	margin: 0;
+	padding: 0;
+}
+
+header a{
+	text-decoration:none;
+	color:#0000EE;
+}
+
+body{
+	margin:auto;
+}
+
+header{
+	text-align:center;
+	font-size:12px;
+}
+
+header .a1{
+	background-color:green;
+	
+}
+
+header>div:nth-of-type(1){
+	height:30px;
+	background-color:#EFEFEF;
+	line-height:30px;
+}
+
+header>div:nth-of-type(1)>div{
+	margin:auto;
+	width:950px;
+}
+
+header>div a:first-of-type{
+	margin-right:70px;
+}
+
+header .div{
+	width:950px;
+	height:100px;	
+	margin:0 auto;
+}
+
+header .div>div{
+	float:left;
+	margin-top:5px;
+}
+
+header .div1>div{
+	border:1px solid #B8BAC1;
+}
+
+header .div1>div:nth-of-type(1){
+
+	margin-top:20px;
+	margin-left:5px;
+}
+
+header .div1>div:nth-of-type(2){
+	margin-top:10px;
+	margin-left:5px;
+}
+
+header nav{
+	height:30px;
+	background-color:#C62C2D;	
+}
+
+header table{
+	width:950px;
+	height:30px;
+	margin:0 auto;
+	border-collapse:collapse;
+}
+
+header table a{
+	color:#FFFFFF;
+}
+
+header table a:hover{
+	color:#F7B64A;
+}
+
+header table td{
+	border:1px solid #BD0708;
+}
+

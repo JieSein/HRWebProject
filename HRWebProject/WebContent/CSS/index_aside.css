@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body,h1,h2,h3,p,ul,ol,form,fieldset,figure,div,a,img {
+	margin: 0;
+	padding: 0;
+}
+
+.index_aside a{
+	text-decoration:none;
+	color:#0000EE;
+}
+
+.center{
+	text-align:center;
+}
+
+.index_aside{
+	width:230px;
+	float:right;
+	height:620px;
+}
+
+.index_aside ul{
+	list-style-type:none;
+	font-size:14px;
+	
+}
+
+.index_aside ul li{
+	height:30px;
+	line-height:30px;
+	margin:0 10px;
+	border:1px solid #FBDBBD;
+	border-top:none;
+	padding:0 10px;
+}
+
+.title{
+	font-size:18px;
+	font-weight:bold;
+	color:#000000;
+	background-color:#F6A65B;
+	vertical-align:middle;
+}
+
+.index_aside ul li a{
+	float:left;
+}
+
+.index_aside ul li span{
+	float:right;
+}
+
